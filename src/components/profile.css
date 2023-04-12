@@ -1,0 +1,21 @@
+.user-details {
+    text-align: center;
+    font-family: serif;
+    font-size: 26px;
+}
+
+.user-code {
+    margin-left: 20rem;
+}
+
+.code-number {
+    margin-left: 24rem;
+    font-family: serif;
+    font-size: 26px;
+}
+
+.home-btn {
+    font-family: serif;
+    font-size: 20px;
+    
+}
