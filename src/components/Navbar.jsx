@@ -23,9 +23,9 @@ const Navbar = () => {
             {user?.displayName ? (
                 <div style={{display: "flex"}}>
                     <a className='home-btn' href="/">Home &nbsp;&nbsp;&nbsp;</a>
-                    <a href="/profile">
+                    <Link to="/profile">
                         <img src={user.photoURL} style={{ borderRadius: "50%", maxHeight: "30px", marginRight: "20px"}} />
-                    </a>
+                    </Link>
                     <button style = {{fontSize:"18px"}}  onClick={handleSignOut}>LogOut</button>
                 </div>
             ) : (
